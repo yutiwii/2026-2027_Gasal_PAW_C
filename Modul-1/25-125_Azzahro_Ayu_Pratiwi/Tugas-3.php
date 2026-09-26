@@ -1,9 +1,9 @@
-<!-- ini non-embedde script -->
+<!-- ini non-embedded script -->
 <?php 
 echo "HelloWorld";
 ?>
 
-<!-- ini embedde-script -->
+<!-- ini embedded-script -->
 <!DOCTYPE html>
 <html>
 <head>
