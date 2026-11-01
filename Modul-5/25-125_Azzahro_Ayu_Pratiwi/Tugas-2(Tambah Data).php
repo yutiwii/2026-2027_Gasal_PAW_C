@@ -19,7 +19,7 @@ if (isset($_POST['simpan'])) {
 
 <h2>Tambah Data Supplier</h2>
 
-<form method="post" action=" Tugas-2(Tambah Master).php">
+<form method="post" action=" Tugas-2(Tambah Data).php">
     Nama: <input type="text" name="nama" required></br>
     Telepon: <input type="text" name="telp" required></br>
     Alamat: <input type="text" name="alamat" required></br>

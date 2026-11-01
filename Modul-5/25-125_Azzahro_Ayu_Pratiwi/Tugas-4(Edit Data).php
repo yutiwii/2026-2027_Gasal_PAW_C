@@ -14,7 +14,7 @@ if (isset($_POST['simpan'])) {
     $hasil = mysqli_query($koneksi, $sql);
 
     if ($hasil) {
-        header("Location: Tugas-1(Data Master)");
+        header("Location: Tugas-1(Data Master).php");
         exit;
     } else {
         echo "Gagal mengubah data";
