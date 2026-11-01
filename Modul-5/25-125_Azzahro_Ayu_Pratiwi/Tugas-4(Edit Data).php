@@ -22,7 +22,7 @@ if (isset($_POST['simpan'])) {
 }
 ?>
 
-<h2>Tambah Data Mahasiswa</h2>
+<h2>Edit Data</h2>
  
 <form method="post" action="Tugas-4(Edit Data).php?id=<?= $row['id']; ?>">
     <input type="hidden" name="id" value="<?php echo $row["id"]?>"></br>
@@ -32,4 +32,4 @@ if (isset($_POST['simpan'])) {
     <button type="submit" name="simpan">Update</button>
 </form>
 
-<a href="Tugas-1(Data Master).php">Lihat Data Mahasiswa</a>
+<a href="Tugas-1(Data Master).php">Lihat Data</a>

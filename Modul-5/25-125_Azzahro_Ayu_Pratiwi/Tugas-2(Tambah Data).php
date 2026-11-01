@@ -17,7 +17,7 @@ if (isset($_POST['simpan'])) {
 }
 ?>
 
-<h2>Tambah Data Mahasiswa</h2>
+<h2>Tambah Data Supplier</h2>
 
 <form method="post" action=" Tugas-2(Tambah Master).php">
     Nama: <input type="text" name="nama" required></br>
@@ -26,4 +26,4 @@ if (isset($_POST['simpan'])) {
     <button type="submit" name="simpan">Simpan</button>
 </form>
 
-<a href=" Tugas-1(Data Master).php">Lihat Data Mahasiswa</a>
+<a href=" Tugas-1(Data Master).php">Lihat Data</a>
