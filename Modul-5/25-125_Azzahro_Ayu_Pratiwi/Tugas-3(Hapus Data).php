@@ -1,7 +1,7 @@
 <?php
 include "koneksi.php";
 if (isset($_GET['id'])) {
-    $no = $_GET['id'];
+    $id = $_GET['id'];
 
     $sql = "DELETE FROM supplier WHERE id='$id'";
     $hasil = mysqli_query($koneksi, $sql);
